@@ -20,7 +20,7 @@ export class User extends Entity<UserProps>{
         return this.props.email
     } 
 
-    public constructor(props: UserProps){
+    private constructor(props: UserProps){
         super(props)
     }
 
