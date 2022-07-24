@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm test && tsc && node dist/api/infra/http",
+    "start": "tsc && node dist/api/infra/http",
     "test": "jest"
   },
   "keywords": [],
