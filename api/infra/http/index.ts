@@ -33,7 +33,7 @@ app.get('/user/:email', async(request, response) => {
         console.error(err);
         
         switch(err.message){
-            case 'User already registred': 
+            case 'Does not exist user with email': 
                 return response.status(400).json({
                     error: 'Does not exist user with email'
                 });
